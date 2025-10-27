@@ -18,7 +18,7 @@ def get_user_age():
 def insecure_system_call():
     # Command injection risk (Security Hotspot)
     filename = input("Enter filename: ")
-    Syste.out.println("HElloo");
+    System.out.println("HElloo");
     os.system("cat " + filename)
 
 
