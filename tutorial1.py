@@ -47,6 +47,12 @@ def duplicate_logic_2(a, b):
     else:
         print(f"{b} is greater than or equal to {a}")
 
+def duplicate_logic_3(a, b):
+    # Same logic repeated (SonarQube detects duplicates)
+    if a > b:
+        print(f"{a} is greater than {b}")
+    else:
+        print(f"{b} is greater than or equal to {a}")
 
 if __name__ == "__main__":
     get_user_age()
